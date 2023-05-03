@@ -1,0 +1,67 @@
+.btn-gral{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:$textSm;
+    color: $mainColor;
+}
+
+.btn-rounded{
+    @extend .btn-gral;
+    border-radius: 5px;
+}
+
+.header-gral{
+    height: 30vh;
+    background-size: cover;
+    background-position: top center;
+    background-image: url(..//img/headers/header-home.jpg);
+}
+
+.header-about-us{
+    @extend .header-gral;
+    background-image: url(..//img/headers/header-home2.jpg);
+}
+
+.header-artists{
+    @extend .header-gral;
+    background-image: url(..//img/headers/header-home3.jpg);
+}
+
+.header-events{
+    @extend .header-gral;
+    background-image: url(..//img/headers/header-home4.jpg);
+}
+
+.header-contact-us{
+    @extend .header-gral;
+    background-image: url(..//img/headers/header-home5.jpg);
+}
+
+
+@mixin textos($color,$size,$weight,$align){
+    font-family: $mainFont;
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+    @if $align == center {text-align: center;}
+    @else if $align == right {text-align: right;}
+    @else if $align == left {text-align: left;}
+}
+
+p {
+    @include textos(black,18px,400,left)
+}
+
+
+$paleta: (
+    'color1': rgb(169, 173, 170),
+    'color2': rgb(1, 255, 56),
+);
+
+
+.bg-green {
+    background-color: map-get($map: $paleta, $key: 'color2')
+}
+

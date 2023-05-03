@@ -1,0 +1,28 @@
+.nosotros{
+    h2{
+        color:$keyColor;
+        margin-top: 20px;
+    }
+    p{
+        margin-top: 20px;
+        padding-right: 40px;
+        text-align: justify;
+        line-height: 1.5em;
+    }
+    img{
+        margin-top: 50px;
+    }
+}
+
+.events{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    h3{
+        margin-top: 10px;
+        font-size: 32px !important;
+    }
+    .card{
+        margin-bottom: 40px;
+    }
+
+}

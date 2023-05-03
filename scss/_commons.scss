@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+background-color:$secondaryColor; 
+font-family: $mainFont;
+padding-bottom: 20px;
+}
+
+h1{
+    color:$secondaryColor;
+    font-size: $textXl;
+    font-weight: $fontMedium;  
+    padding-bottom: 20px;
+}
+
+h2,h3,h4,p{color: $secondaryColor;}
+
+h2{ 
+color:$secondaryColor;
+font-size: $textLg;
+font-weight: $fontBold;
+}
+
+h3{
+line-height: 28px;
+font-weight: $fontLight;
+font-size: $textMd;
+margin-bottom: 20px;
+}
+
+h4{
+line-height: 10px;
+font-weight: $fontBold;
+font-size: $textSm;
+margin-bottom: 20px;
+}
+
+p{
+    line-height: 24px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+nav{
+background-color: $secondaryColor;
+top: 0%;
+left: 0%;
+    ul{
+      list-style: none;
+      display: flex;
+    }
+    li {
+        margin-right: 10px;
+    }
+    a {
+        color: $mainColor;
+        text-decoration: none;
+        font-family: $mainFont;
+        font-weight: $fontRegular;
+        font-size: $textMd; 
+        &:hover{
+                color: rgb(35, 33, 33);
+                text-decoration: underline;
+        }
+    }
+}
+
+header img{
+width: 100%;
+object-fit: cover;
+}
+
+
+/*Css Home*/
+.bg-dm{
+    background-color: rgba(19, 18, 18, 0.927);
+    width: auto;
+    height: auto;
+    padding: 80px 60px 60px 60px;
+}
+
+.box-home{
+    padding-top: 60px;
+    background-color: $mainColor;
+    h2{
+        color:$keyColor;
+        font-size: 42px;     
+    }
+    h3{
+        color:gray;
+    }
+    img{
+    padding-top: 20px;  
+    }
+    .btn{
+        margin-right: 10px;
+    }
+    .btn:hover{
+        background-color: $secondaryColor !important;
+        cursor: pointer;}
+}
+
+.container-fluid{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+
+.bg-button{
+    background-color: rgb(1, 255, 56);
+    height: auto;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.home-artist{
+    .card{
+        padding-top: 12px;
+        padding-bottom: 20px;
+        margin: 15px;
+    }
+    .card-title{
+        color: black;
+    }
+    .card-text{
+        color: black; 
+        font-size: 16px; 
+    }
+    .btn:hover{
+        color: $keyColor;
+        cursor: pointer;
+    }
+ }

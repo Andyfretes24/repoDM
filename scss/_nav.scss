@@ -1,0 +1,26 @@
+//nesting - anidacion
+
+.botonera{
+    background-color: rgb(255, 255, 255);
+    ul{
+        li {
+            padding-top: 24px;
+            a{
+                font-size: 18px;
+                font-weight: 300;
+                &:hover{
+                    text-decoration: underline;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    img {
+        width: 400px !important;
+        @media (min-width: 320px){
+            width: 150px;
+        }
+    }
+}
+
+  

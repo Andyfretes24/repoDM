@@ -1,0 +1,19 @@
+.artistas{
+    .card{
+        padding-left: 40px;
+        margin-bottom: 30px;
+    }
+    .card-body{
+        padding-bottom: 40px;
+        padding-left: 30px;
+    }
+    .card-text{
+            color: $secondaryColor;
+            font-size: 15px !important;
+            text-align: left;
+            }
+    .btn:hover{
+        background-color: $secondaryColor !important;
+        cursor: pointer;
+    }
+ }

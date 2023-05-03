@@ -1,0 +1,21 @@
+.events{
+    margin: 0px;
+        h2{
+            color:$keyColor;
+        }
+        .card{
+            padding: 12px;
+        }
+        .card-title{
+            color: black;
+            font-weight:$fontBold ;
+        }
+        .card-text{
+            color: black;
+        }
+        .btn:hover{
+            background-color: black !important;
+            color: white;
+            cursor: pointer;
+        }
+}
