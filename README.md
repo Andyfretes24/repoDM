@@ -3,7 +3,7 @@ Repositorio Dmensions I Entrega Proyecto Final Curso Desarrollo Web:
 
 El presente sitio cuenta de 5 páginas desarrolladas en html5 y css3 con implementación de Bootstrap en su totalidad.
 La web cuenta con una barra superior de navegación en cada una de sus extensiones con el logo de la marca linkeada al inicio.
-El desarrollo del home fue pensado para interactuar con otras secciones presentando cajas contenedoras de información con acceso directo al desarrollo de "About Us" / "Artists" y "Events". La carpeta local fue subida correctamente al repositorio de Github. Posteriormente realicé su subida a un servidor pago de mi titularidad "Hostinger" mediante FTP utilizando FileZilla. El link para su proyección es un subdominio de un dominio propio: www.dmensions.aworks.ar
+El desarrollo del home fue pensado para interactuar con otras secciones presentando cajas contenedoras de información con acceso directo al desarrollo de "About Us" / "Artists" y "Events". La carpeta local fue subida correctamente al repositorio de Github. Posteriormente realicé su subida a un servidor pago de mi titularidad "Hostinger" mediante FTP utilizando FileZilla. El link para su proyección es un subdominio de un dominio propio: https://dmensions.aworks.ar
 
 
 # Lenguajes y Tecnología Aplicada 
@@ -28,4 +28,4 @@ FRAMEWORKS:
 Ingreso al deployment de Github Pages: https://andyfretes24.github.io/repoDM/
 
 
-Deployment en servidor hostinger: www.dmensions.aworks.ar
+Deployment en servidor hostinger: https://dmensions.aworks.ar
