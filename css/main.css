@@ -62,7 +62,7 @@ p {
   font-weight: 400;
 }
 .botonera img {
-  width: 400px !important;
+  width: 350px !important;
 }
 @media (min-width: 320px) {
   .botonera img {
@@ -71,18 +71,41 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  footer {
-    gap: 10px;
+  .navbar-brand {
+    width: 20px !important;
   }
-  footer div:nth-child(1) {
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .bg-dm {
+    max-width: 768px;
+  }
+  .bg-dm h1 {
+    font-size: 42px;
+  }
+  .bg-dm h2 {
+    font-size: 24px;
+  }
+  .bg-dm h3 {
+    font-size: 18px;
+  }
+  .bg-dm .container-fluid {
+    width: 100%;
     padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
-  footer div:nth-child(2) {
-    padding-top: 70px;
-    margin: -40px;
+  .bg-dm .container-fluid h4 {
+    font-size: 18px;
   }
-  footer div:last-child {
-    padding: 10px;
+  .bg-dm .container-fluid p {
+    font-size: 16px;
+  }
+  .bg-dm .home-artist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 * {
@@ -225,6 +248,7 @@ header img {
 
 .artistas .card {
   padding-left: 40px;
+  padding-right: 40px;
   margin-bottom: 30px;
 }
 .artistas .card-body {
