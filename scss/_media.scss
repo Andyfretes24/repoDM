@@ -1,39 +1,127 @@
-    @media screen and (max-width:768px) {
-        .navbar-brand{
-           width: 20px !important;
-        }
+@media screen and (max-width:768px) {
+    .navbar-brand{
+        width: 20px !important;
         .navbar-toggler-icon{
             width: 20px;
             height: 20px;
-        }
-        .bg-dm{
-            max-width: 768px;
-            h1 {
-                font-size: 42px;
-            }
-            h2 {
-                font-size: 24px;
-            }
-            h3 {
-                font-size: 18px;
-            }
-            .container-fluid{
-                width: 100%;
-                padding-top: 40px;
-                padding-left: 35px;
-                padding-right: 35px;
-                h4{
-                    font-size: 18px;
-                }
-                p {
-                    font-size: 16px;
-                }
-            }
-            .home-artist{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-
             }
         }
     }
+
+
+    
+    @media screen and (max-width: 360px) {
+        .bg-dm{
+            overflow: hidden;
+            padding: 0px 0px 60px;
+            h1 {
+                font-size:42px;
+                padding-top: 50px;
+                padding-left: 30px;
+            }
+            h2 {
+                font-size: 24px;
+                padding-left: 30px;
+            }
+            h3 {
+                font-size: 18px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            h4{
+                font-size: 18px;
+                padding-left: 20px;
+            }
+            p {
+                font-size: 16px;
+                text-align: left;
+                padding-left: 20px;
+            }
+            .home-artist{
+                padding-left: 0%;
+            }
+            .box-home{
+                padding: 50px 20px 50px 0px;
+                h4{
+                    padding-left: 28px;
+                }
+                p{
+                    padding-left: 30px;
+                }
+                .btn{
+                    margin-left: 30px;
+                }
+            }
+            .card-title{
+                padding: 0%;
+            }
+            .card-text{
+                padding: 0%;
+            }
+            .card-artist{
+                margin: 20px 0px;
+                .home-artist{
+                    padding: 15px 0px;
+                }
+            }
+        }
+        .events{
+            .card {
+                padding: 0%;
+            }
+            h2{
+                padding-left: 30px !important;
+            }
+            .card-body{
+                h3{
+                    padding-left: 5%;
+                }
+                h4{
+                    padding-left: 5%;
+                }
+                p{
+                    padding-left: 5%;
+                }
+            }
+        }
+        .nosotros{
+            h2{
+                padding-left: 9%;
+            }
+        }
+        .artistas{
+            .card{
+                padding: 0px !important;
+            }
+            .card-title{
+                padding: 0%;
+            }
+            .card-text{
+                padding: 0%;
+            }
+        }
+        .gmaps{
+            width: 100%;
+        }
+        .box2{
+            p{ 
+                font-size: 17px;
+            }
+        }
+        .box3{
+            padding-bottom: 45px !important;
+        }
+        .contact{
+            h2{
+                padding-left: 30px;
+            }
+            p{
+                padding-left: 30px;
+            }
+            form {
+                padding-left: 20px;
+            }
+        }
+   }
+
+

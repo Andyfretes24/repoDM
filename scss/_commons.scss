@@ -85,6 +85,9 @@ object-fit: cover;
 }
 
 .box-home{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
     padding-top: 60px;
     background-color: $mainColor;
     h2{
@@ -95,20 +98,15 @@ object-fit: cover;
         color:gray;
     }
     img{
-    padding-top: 20px;  
+        padding-top: 20px;  
     }
     .btn{
         margin-right: 10px;
     }
     .btn:hover{
         background-color: $secondaryColor !important;
-        cursor: pointer;}
-}
-
-.container-fluid{
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 60px;
+        cursor: pointer;
+    }
 }
 
 .bg-button{
@@ -137,3 +135,11 @@ object-fit: cover;
         cursor: pointer;
     }
  }
+
+.error{
+    .btn:hover{
+        color: black;
+        background-color: white;
+        cursor: pointer;
+    }
+}

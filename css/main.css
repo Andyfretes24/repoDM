@@ -47,67 +47,6 @@ p {
   background-color: rgb(1, 255, 56);
 }
 
-.botonera {
-  background-color: rgb(255, 255, 255);
-}
-.botonera ul li {
-  padding-top: 24px;
-}
-.botonera ul li a {
-  font-size: 18px;
-  font-weight: 300;
-}
-.botonera ul li a:hover {
-  text-decoration: underline;
-  font-weight: 400;
-}
-.botonera img {
-  width: 350px !important;
-}
-@media (min-width: 320px) {
-  .botonera img {
-    width: 150px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .navbar-brand {
-    width: 20px !important;
-  }
-  .navbar-toggler-icon {
-    width: 20px;
-    height: 20px;
-  }
-  .bg-dm {
-    max-width: 768px;
-  }
-  .bg-dm h1 {
-    font-size: 42px;
-  }
-  .bg-dm h2 {
-    font-size: 24px;
-  }
-  .bg-dm h3 {
-    font-size: 18px;
-  }
-  .bg-dm .container-fluid {
-    width: 100%;
-    padding-top: 40px;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .bg-dm .container-fluid h4 {
-    font-size: 18px;
-  }
-  .bg-dm .container-fluid p {
-    font-size: 16px;
-  }
-  .bg-dm .home-artist {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
 * {
   padding: 0%;
   margin: 0%;
@@ -194,6 +133,9 @@ header img {
 }
 
 .box-home {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
   padding-top: 60px;
   background-color: black;
 }
@@ -213,12 +155,6 @@ header img {
 .box-home .btn:hover {
   background-color: white !important;
   cursor: pointer;
-}
-
-.container-fluid {
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 60px;
 }
 
 .bg-button {
@@ -246,6 +182,78 @@ header img {
   cursor: pointer;
 }
 
+.error .btn:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.botonera {
+  background-color: rgb(255, 255, 255);
+}
+.botonera ul li {
+  padding-top: 24px;
+}
+.botonera ul li a {
+  font-size: 18px;
+  font-weight: 300;
+}
+.botonera ul li a:hover {
+  text-decoration: underline;
+  font-weight: 400;
+}
+.botonera img {
+  width: 275px;
+}
+@media (max-width: 500px) {
+  .botonera img {
+    width: 150px;
+  }
+}
+
+footer .under-page {
+  background-color: rgb(255, 255, 255);
+  padding-top: 60px;
+}
+footer .box1 {
+  padding-bottom: 40px;
+}
+footer .box1 img {
+  width: 250px;
+}
+@media (max-width: 768px) {
+  footer .box1 img {
+    width: 100vbox;
+  }
+}
+footer .box2 h2 {
+  color: rgb(1, 255, 56);
+  text-align: left;
+  padding-left: 38px;
+}
+footer .box2 p {
+  color: black;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+footer .box3 {
+  padding-bottom: 20px;
+}
+footer .box3 h2 {
+  color: rgb(1, 255, 56);
+}
+footer .box3 img {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 50px !important;
+}
+footer .group2 {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgb(244, 245, 245);
+}
+
 .artistas .card {
   padding-left: 40px;
   padding-right: 40px;
@@ -265,59 +273,12 @@ header img {
   cursor: pointer;
 }
 
-footer .under-page {
-  background-color: rgb(255, 255, 255);
-  padding-top: 60px;
-}
-footer .box1 {
-  margin-left: 60px;
-  margin-right: 30px;
-  padding-bottom: 40px;
-}
-footer .box1 img {
-  width: 350px !important;
-}
-@media (min-width: 320px) {
-  footer .box1 img {
-    width: 150px;
-  }
-}
-footer .box2 {
-  margin-left: 90px;
-}
-footer .box2 h2 {
-  color: rgb(1, 255, 56);
-}
-footer .box2 p {
-  color: black;
-  padding-bottom: 20px;
-  padding-right: 20px;
-}
-footer .box3 {
-  margin-left: 90px;
-  padding-bottom: 20px;
-}
-footer .box3 h2 {
-  color: rgb(1, 255, 56);
-}
-footer .box3 img {
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 50px !important;
-}
-footer .group2 {
-  margin-top: 20px;
-  padding: 15px;
-  background-color: rgb(244, 245, 245);
-}
-
 .nosotros h2 {
   color: rgb(1, 255, 56);
   margin-top: 20px;
 }
 .nosotros p {
   margin-top: 20px;
-  padding-right: 40px;
   text-align: justify;
   line-height: 1.5em;
 }
@@ -330,11 +291,11 @@ footer .group2 {
   margin-bottom: 40px;
 }
 .events h3 {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 32px !important;
 }
 .events .card {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .events {
@@ -359,12 +320,124 @@ footer .group2 {
   cursor: pointer;
 }
 
-.contact form {
-  padding-right: 50px;
-}
 .contact button:hover {
   background-color: rgb(1, 255, 56) !important;
   cursor: pointer;
+}
+.contact .gmaps {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    width: 20px !important;
+  }
+  .navbar-brand .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .bg-dm {
+    overflow: hidden;
+    padding: 0px 0px 60px;
+  }
+  .bg-dm h1 {
+    font-size: 42px;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .bg-dm h2 {
+    font-size: 24px;
+    padding-left: 30px;
+  }
+  .bg-dm h3 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .bg-dm h4 {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .bg-dm p {
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .bg-dm .home-artist {
+    padding-left: 0%;
+  }
+  .bg-dm .box-home {
+    padding: 50px 20px 50px 0px;
+  }
+  .bg-dm .box-home h4 {
+    padding-left: 28px;
+  }
+  .bg-dm .box-home p {
+    padding-left: 30px;
+  }
+  .bg-dm .box-home .btn {
+    margin-left: 30px;
+  }
+  .bg-dm .card-title {
+    padding: 0%;
+  }
+  .bg-dm .card-text {
+    padding: 0%;
+  }
+  .bg-dm .card-artist {
+    margin: 20px 0px;
+  }
+  .bg-dm .card-artist .home-artist {
+    padding: 15px 0px;
+  }
+  .events .card {
+    padding: 0%;
+  }
+  .events h2 {
+    padding-left: 30px !important;
+  }
+  .events .card-body h3 {
+    padding-left: 5%;
+  }
+  .events .card-body h4 {
+    padding-left: 5%;
+  }
+  .events .card-body p {
+    padding-left: 5%;
+  }
+  .nosotros h2 {
+    padding-left: 9%;
+  }
+  .artistas .card {
+    padding: 0px !important;
+  }
+  .artistas .card-title {
+    padding: 0%;
+  }
+  .artistas .card-text {
+    padding: 0%;
+  }
+  .gmaps {
+    width: 100%;
+  }
+  .box2 p {
+    font-size: 17px;
+  }
+  .box3 {
+    padding-bottom: 45px !important;
+  }
+  .contact h2 {
+    padding-left: 30px;
+  }
+  .contact p {
+    padding-left: 30px;
+  }
+  .contact form {
+    padding-left: 20px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
